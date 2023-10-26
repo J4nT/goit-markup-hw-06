@@ -633,6 +633,7 @@ margin-bottom: 16px;
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4,0,0.2,1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px; /*hw-06*/
 }
 .is-hidden{
     opacity: 0;
@@ -699,4 +700,172 @@ margin-bottom: 16px;
     width: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.formular{
+margin:0 auto;
+}
+.p-formular{
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+.form-formular{
+    display: flex;
+}
+.label{
+
+}
+.input-formular{
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--white-color);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white-color);
+}
+.placeholder{
+    color: var(--white-color);
+}
+.button-formular{
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    cursor: pointer;
+    background-color: var(--iris-color);
+    border: none;
+    border-radius: 4px;
+    margin-left: 24px;
+}
+.svg-formular{
+    margin-left: 16px;
+}
+.p-modal{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    margin-bottom: 16px;
+}
+.form-modal{
+    margin-bottom: 8px;
+}
+.modal-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.4em;
+    color: var(--light-slate-color);
+    display: block;
+    margin-bottom: 4px;
+}
+.input-icon{
+    position: relative;
+}
+.input{
+    width: 100%;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input:hover .svg-form{
+    border-color: var(--iris-color);
+}
+.svg-form{
+    position: absolute;
+    left: 16px;
+    top:50%;
+    transform: translate(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-section-four{
+    margin-bottom: 16px;
+}
+.textarea{
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea:hover{
+    border-color: var(--iris-color);
+}
+.form-section-five{
+    margin-bottom: 24px;
+}
+.label-modal-five{
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate-color);
+}
+.label-modal-five::after {
+    border: none;
+    fill: var(--cloud-color);
+}
+.span-modal{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+.a-modal{
+    color: var(--iris-color);
+}
+.button-modal{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    cursor: pointer;
+    background-color: var(--iris-color);
+    border: none;
+    border-radius: 4px; /*jest wyżej, powtórka?*/
+    font-size: 16px;/*jest wyżej, powtórka?*/
+    font-weight: 500;/*jest wyżej, powtórka?*/
+    line-height: 1.5;/*jest wyżej, powtórka?*/
+    letter-spacing: 0.04em;/*jest wyżej, powtórka?*/
+    color: var(--white-color);/*jest wyżej, powtórka?*/
+    cursor: pointer;/*jest wyżej, powtórka?*/
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
