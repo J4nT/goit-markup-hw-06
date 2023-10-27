@@ -788,11 +788,8 @@ margin-bottom: 16px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input:focus{
+.input:focus + .svg-form svg{
     border-color: var(--iris-color);
-}
-.svg-form:focus{
-    fill:var(--iris-color);
 }
 .svg-form{
     position: absolute;
@@ -873,8 +870,8 @@ margin-bottom: 16px;
     cursor: pointer;/*jest wyżej, powtórka?*/
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.visually-hidden:checked + .span-modal{
-    border-color: var(--ocean-color);
+.visually-hidden:checked + .span-modal svg{
+    background-color: var(--ocean-color);
     border: none;
     fill: var(--cloud-color);
 }
