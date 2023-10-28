@@ -703,7 +703,10 @@ margin-bottom: 16px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .formular{
-    margin:0 auto;
+    margin-top: 0;
+}
+.margin-right-eighty{
+    margin-right: 80px;
 }
 .p-formular{
     margin-bottom: 16px;
@@ -732,9 +735,7 @@ margin-bottom: 16px;
     border-radius: 4px;
     color: var(--white-color);
 }
-.placeholder{
-    color: var(--white-color);
-}
+
 .button-formular{
     min-width: 165px;
     height: 40px;
@@ -826,6 +827,9 @@ margin-bottom: 16px;
 .textarea:focus{
     border-color: var(--iris-color);
 }
+.textarea::placeholder{
+    color: var(--white-color);
+}
 .form-section-five{
     margin-bottom: 24px;
 }
@@ -876,6 +880,7 @@ margin-bottom: 16px;
     color: var(--white-color);/*jest wyżej, powtórka?*/
     cursor: pointer;/*jest wyżej, powtórka?*/
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: auto;
 }
 .visually-hidden:checked + .label-modal-five span{
     background-color: var(--ocean-color);
